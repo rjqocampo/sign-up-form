@@ -27,6 +27,11 @@ time, mark, audio, video {
 
 /* ------------ Custom CSS ------------ */
 
+/* 
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Suez One', serif;
+*/
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     min-height: 100vh;
@@ -54,8 +59,8 @@ main {
 }
 
 h1 {
-    font-size: 2rem;
-    font-weight: 900;
+    font-family: 'Bebas Neue', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
     padding: 15px;
 
     align-self: flex-start;
@@ -68,6 +73,7 @@ h2 {
 
 h3 {
     font-size: 0.9rem;
+    font-weight: bold;
 }
 
 label {
@@ -94,7 +100,7 @@ form {
 
 input {
     border: 2px solid #d4d4d4;
-    width: 145px;
+    width: 140px;
     border-radius: 8px;
 }
 
@@ -102,7 +108,7 @@ form > div:last-child {
     width: 100%;
 }
 
-.sign-up {
+.button-sign-up {
     font-size: 0.7rem;
     font-weight: bold;
     color: white;
@@ -111,9 +117,10 @@ form > div:last-child {
     width: 100%;
     height: 30px;
     border-radius: 15px;
+    cursor: pointer;
 }
 
-.sign-up + p {
+.button-sign-up + p {
     font-size: 0.7rem;
     text-align: center;
     margin-bottom: auto;
@@ -141,23 +148,52 @@ hr {
     flex: 1;
 }
 
-.container-signup-buttons {
+.container-alternate-signup {
     padding: 5px;
 }
 
-.container-signup-buttons > p {
+.container-alternate-signup > p {
     font-size: 0.7rem;
     text-align: center;
     padding: 10px;
 }
 
-.container-signup-buttons > button {
+.container-google > button,
+.container-facebook > button {
     font-size: 0.8rem;
     background-color: white;
     border: 2px solid #d4d4d4;
     border-radius: 40px;
     height: 40px;
     width: 100px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-alternate-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.container-google > button > img {
+    padding: 1px;
+    height: 25px;
+    width: 25px;
+}
+
+.container-facebook > button > img {
+    padding: 1px;
+    height: 28px;
+    width: 28px;
+}
+
+.container-google > button > p,
+.container-facebook > button > p {
+    font-size: 0.7rem;
+    width: 100%;
 }
 
 
@@ -237,4 +273,15 @@ img {
 .container-hero-community > hr {
     border: 1px solid white;
     height: 0;
+}
+
+.container-hero-header > h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 5rem;
+}
+
+.container-hero-header > h2 {
+    color: white;
+    font-size: 2.5rem;
 }
