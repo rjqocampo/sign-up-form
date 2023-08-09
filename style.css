@@ -26,7 +26,9 @@ time, mark, audio, video {
 }
 
 /* ------------ Custom CSS ------------ */
+
 body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     min-height: 100vh;
     background-color: #B9A267;
 
@@ -39,15 +41,54 @@ main {
     display: flex;
 }
 
+/* ------------ Form ------------ */
+
 .container-form {
     background-color: blanchedalmond;
-    height: 650px;
-    width: 500px;
+    height: 600px;
+    width: 450px;
 }
+
+h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+h3 {
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+label {
+    font-size: 0.8rem;
+    font-weight: 900;
+    display: block;
+}
+
+form {
+    padding: 20px;
+    gap: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-row {
+    display: flex;
+}
+/* ------------ Hero ------------ */
 
 .container-hero {
     background: center/cover url('img/hero.jpg') no-repeat;
 
-    height: 650px;
-    width: 650px;
+    height: 600px;
+    width: 600px;
 }
