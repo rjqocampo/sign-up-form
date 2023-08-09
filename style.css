@@ -72,11 +72,13 @@ h2 {
 }
 
 h3 {
+    color: rgb(48, 48, 48);
     font-size: 0.9rem;
     font-weight: bold;
 }
 
 label {
+    color: rgb(49, 49, 49);
     font-size: 0.7rem;
     font-weight: bold;
     display: block;
@@ -331,7 +333,43 @@ img {
     gap: 20px;
 }
 
-.container-hero-arrows > div > a > img {
+.container-hero-arrows > div > button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.container-hero-arrows > div > button > img {
     border: 2px solid white;
     border-radius: 50px;
+}
+
+footer > a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.7rem;
+    color: black;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+}
+
+footer > a > img {
+    padding: 0;
+
+    height: 25px;
+    width: 25px;
+}
+
+footer > a:hover p {
+    display: none;
+}
+
+footer > a:hover:after {
+    content: "Click to see code";
 }
