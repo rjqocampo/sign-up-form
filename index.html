@@ -31,24 +31,53 @@
                     </div>
                     <div>
                         <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone" required>
+                        <input type="tel" id="phone" name="phone" minlength="10" required>
                     </div>
                 </div>
                 <div class="form-row">
                     <div>
                         <label for="password">Password</label>
-                        <input type="text" id="password" name="password" required>
+                        <input type="password" id="password" name="password" required>
                     </div>
                     <div>
                         <label for="confirm-password">Confirm Password</label>
-                        <input type="text" id="confirm-password" name="confirm-password" required>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
                     </div>
                 </div>
+                <div>
+                    <button type="submit" class="sign-up">Sign up</button>
+                    <p>Already have an account? <span><strong><a href="">Sign in.</a></strong></span></p>
+                </div>
             </form>
+            <div class="break">
+                <hr>
+                <span>or</span>
+                <hr>
+            </div>
+            <div class="container-signup-buttons">
+                <p>Sign up using:</p>
+                <button>Google</button>
+                <button>Facebook</button>
+            </div>
         </div>
 
         <div class="container-hero">
+            <div class="container-hero-buttons">
+                <button type="button">About Us</button>
+                <button type="button">Log in</button>
+            </div>
+            <div class="container-hero-community">
+                <div>
+                    <div class="container-svg">
+                        <img src="img/community.png" alt="">
+                    </div>
+                    <p>Largest Music Community</p>
+                </div>
+                <div>
+                    <hr>
+                </div>
 
+            </div>
         </div>
     </main>
     <footer>
