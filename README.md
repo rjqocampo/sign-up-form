@@ -2,7 +2,7 @@
 
 Welcome to my Sign Up Form project! 
 
-This mini project aims to create a user-friendly sign up form with basic client side validation.
+This mini project aims to create a user-friendly sign up form with basic client side validation using HTML and CSS.
 
 Link to live project: https://rjqocampo.github.io/sign-up-form/ :point_left:
 
@@ -60,9 +60,9 @@ _or_
 # Usage
 To test the built-in basic HTML client side validation, try submitting empty values.
 
-The email input will check if user inputted a an at(@) sign.
+When you submit the form, it will also check if the user inputted an at(@) sign on the email input.
 
-The phone input will check for a minimum number of characters.
+When you submit the form, it will also check if the user inputted minimum required characters on the phone number input.
 
 # Contributions
 
