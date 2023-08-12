@@ -33,45 +33,58 @@ body {
     background-color: #a59a53;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 main {
+    height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ------------ Form ------------ */
 
 .container-form {
     background-color: white;
-    height: 600px;
-    width: 450px;
+    height: clamp(600px, 95vh, 750px);
+    width: clamp(450px, 35vw, 600px);
+    margin: 40px 0px;
     
     display: flex;
     flex-direction: column;
+}
+
+.container-form > div {
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+
+    flex: 1;
 }
 
 h1 {
     font-family: 'Bebas Neue', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2.5rem;
-    padding: 15px;
-
-    align-self: flex-start;
+    font-size: 3rem;
+    line-height: 2.5rem;
+    padding: 15px 0px 0px 15px;
 }
 
 h2 {
     font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 4rem;
-    line-height: 3.7rem;
+    font-size: 5.5rem;
+    line-height: 5rem;
     font-weight: 900;
 }
 
 h3 {
     font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(48, 48, 48);
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 600;
 }
 
@@ -110,21 +123,21 @@ form > div:last-child {
 }
 
 .button-sign-up {
-    font-size: 0.7rem;
-    font-weight: bold;
+    font-size: 1rem;
+    font-weight: 400;
     color: white;
     background-color: black;
     border: none;
     width: 100%;
-    height: 30px;
-    border-radius: 15px;
+    height: 37px;
+    border-radius: 20px;
     cursor: pointer;
 }
 
 .button-sign-up + p {
-    font-size: 0.7rem;
+    color: rgb(49, 49, 49);
+    font-size: 0.9rem;
     text-align: center;
-    margin-bottom: auto;
     padding: 10px;
 }
 
@@ -156,7 +169,7 @@ hr {
 }
 
 .container-alternate-signup > p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     text-align: center;
     padding: 5px 10px 10px 10px;
 }
@@ -164,12 +177,12 @@ hr {
 .container-google > button,
 .container-facebook > button {
     font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.8rem;
+    font-weight: bold;
     background-color: white;
     border: 2px solid #d4d4d4;
     border-radius: 40px;
     height: 40px;
-    width: 100px;
+    width: 122px;
     cursor: pointer;
 
     display: flex;
@@ -185,7 +198,7 @@ hr {
 .container-google > button > img {
     padding: 1px;
     height: 25px;
-    width: 25px;
+    width: 30px;
 }
 
 .container-facebook > button > img {
@@ -196,7 +209,7 @@ hr {
 
 .container-google > button > p,
 .container-facebook > button > p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     width: 100%;
 }
 
@@ -205,8 +218,9 @@ hr {
 
 .container-hero {
     background: center/cover url('img/hero.jpg') no-repeat;
-    height: 600px;
-    width: 600px;
+    height: clamp(600px, 95vh, 750px);
+    width: clamp(600px, 45vw, 750px);
+    margin: 40px 0px;
 
     display: flex;
     flex-direction: column;
@@ -219,6 +233,7 @@ hr {
     display: flex;
     justify-content: flex-end;
     gap: 20px;
+    flex: 0;
 }
 
 .container-hero-buttons > button:first-child {
@@ -250,6 +265,8 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    flex: 0;
 }
 
 .container-hero-community > div:first-child {
@@ -289,7 +306,10 @@ img {
 }
 
 .container-hero-header {
-    margin-top: auto; 
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .container-hero-header > h1 {
@@ -303,8 +323,8 @@ img {
 .container-hero-header > h2 {
     font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    font-size: 2rem;
-    line-height: 2.5rem;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
     padding: 0px 20px;
 }
 
@@ -313,6 +333,8 @@ img {
 
     display: flex;
     justify-content: space-between;
+
+    flex: 0;
 }
 
 .container-hero-arrows > div:first-child {
@@ -349,6 +371,11 @@ img {
     border-radius: 50px;
 }
 
+footer {
+   padding: 5px; 
+   align-self: flex-start;
+}
+
 footer > a {
     font-family:'Courier New', Courier, monospace;
     font-weight: bold;
@@ -359,10 +386,6 @@ footer > a {
     display: flex;
     align-items: center;
     gap: 5px;
-
-    position: fixed;
-    bottom: 5px;
-    left: 5px;
 }
 
 footer > a > img {

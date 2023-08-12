@@ -14,65 +14,69 @@
     <main>
         <div class="container-form">
             <h1>LOOP.</h1>
-            <h2>Hi there!</h2>
-            <h3>Welcome to Loop! Let’s get you onboard.</h3>
-            <form action="" method="">
-                <div class="form-row">
-                    <div>
-                        <label for="firstname">First Name</label>
-                        <input type="text" id="firstname" name="firstname" required>
+
+            <div>
+                <h2>Hi there!</h2>
+                <h3>Welcome to Loop! Let’s get you onboard.</h3>
+                <form action="" method="">
+                    <div class="form-row">
+                        <div>
+                            <label for="firstname">First Name</label>
+                            <input type="text" id="firstname" name="firstname" required>
+                        </div>
+                        <div>
+                            <label for="lastname">Last Name</label>
+                            <input type="text" id="lastname" name="lastname" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div>
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" minlength="10" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div>
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div>
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="password" id="confirm-password" name="confirm-password" required>
+                        </div>
                     </div>
                     <div>
-                        <label for="lastname">Last Name</label>
-                        <input type="text" id="lastname" name="lastname" required>
+                        <button type="submit" class="button-sign-up">Sign up</button>
+                        <p>Already have an account? <strong><a href="">Sign in.</a></strong></p>
+                    </div>
+                </form>
+                <div class="break">
+                    <hr>
+                    <span>or</span>
+                    <hr>
+                </div>
+                <div class="container-alternate-signup">
+                    <p>Sign up using:</p>
+                    <div class="container-alternate-buttons">
+                        <div class="container-google">
+                            <button>
+                                <img src="img/google.png" alt="Google icon. The letter G with multiple colors">
+                                <p>Google</p>
+                            </button>
+                        </div>
+                        <div class="container-facebook">
+                            <button>
+                                <img src="img/facebook.png" alt="Google icon. The letter G with multiple colors">
+                                <p>Facebook</p>
+                            </button>
+                        </div>
                     </div>
                 </div>
-                <div class="form-row">
-                    <div>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div>
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone" minlength="10" required>
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div>
-                        <label for="password">Password</label>
-                        <input type="password" id="password" name="password" required>
-                    </div>
-                    <div>
-                        <label for="confirm-password">Confirm Password</label>
-                        <input type="password" id="confirm-password" name="confirm-password" required>
-                    </div>
-                </div>
-                <div>
-                    <button type="submit" class="button-sign-up">Sign up</button>
-                    <p>Already have an account? <strong><a href="">Sign in.</a></strong></p>
-                </div>
-            </form>
-            <div class="break">
-                <hr>
-                <span>or</span>
-                <hr>
-            </div>
-            <div class="container-alternate-signup">
-                <p>Sign up using:</p>
-                <div class="container-alternate-buttons">
-                    <div class="container-google">
-                        <button>
-                            <img src="img/google.png" alt="Google icon. The letter G with multiple colors">
-                            <p>Google</p>
-                        </button>
-                    </div>
-                    <div class="container-facebook">
-                        <button>
-                            <img src="img/facebook.png" alt="Google icon. The letter G with multiple colors">
-                            <p>Facebook</p>
-                        </button>
-                    </div>
-                </div>
+
             </div>
         </div>
 
