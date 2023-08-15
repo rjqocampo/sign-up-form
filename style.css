@@ -39,7 +39,7 @@ body {
 }
 
 main {
-    height: 100vh;
+    height: calc(100vh - 35px);
     display: flex;
     justify-content: center;
     align-items: center;
