@@ -18,7 +18,7 @@ Link to live project: https://rjqocampo.github.io/sign-up-form/ :point_left:
   * Visual Studio Code for IDE
 
 ### Motivation
-To practice and solidify my HTML Forms and  and CSS fundamentals
+To practice and refine my HTML Forms and  and CSS fundamentals
 
 ### My Learnings
 * Value of HTML Forms
@@ -32,9 +32,13 @@ To practice and solidify my HTML Forms and  and CSS fundamentals
 * Not mobile responsive
 * No validation for password
 
+Found a bug or issue in the project? [Click here](https://github.com/rjqocampo/sign-up-form#contributions).
+
 ### Prospective Updates
 * Make mobile responsive
 * Use Javascript to check if passwords are similar
+
+Looking to contribute ideas or features to the project? [Click here](https://github.com/rjqocampo/sign-up-form#contributions).
 
 # Getting Started
 You can start the project in two ways:
@@ -66,12 +70,29 @@ When you submit the form, it will also check if the user inputted minimum requir
 
 # Contributions
 
-I owe my learnings to the open source community. It's an amazing place to learn, inspire and create.  So I welcome any contributions from the community that can help enhance this project. If you're interested in contributing, here are a few pointers to get you started:
+I owe my learnings to the open source community. It's an amazing place to learn, inspire and create.  So I welcome any contributions from the community that can help enhance this project. 
 
-* **Fork the Repository:** Fork this repository to your GitHub account.
-* **Make Changes:** Implement your changes, whether they're bug fixes, new features, or improvements.
-* **Create a Pull Request:** Submit a pull request to the original repository. Provide a clear description of your changes.
-* **Merge:** Once approved, your changes will be merged into the project.
+### Contribute
+
+If you're interested in contributing, here are a few pointers to get you started:
+
+1. **Fork the Repository:** Fork this repository to your GitHub account.
+2. **Make Changes:** Implement your changes, whether they're bug fixes, new features, or improvements.
+3. **Create a Pull Request:** Submit a pull request to the original repository. Provide a clear description of your changes.
+4. **Merge:** Once approved, your changes will be merged into the project.
+
+### Report Bugs or Issues
+
+Found a bug or issue in the project? Help me improve by reporting it! A well-documented bug report can go a long way in helping me understand and resolve the issue. Here's how you can report bugs effectively:
+
+1. **Check Existing Issues:** Before reporting a bug, search the [issue tracker](https://github.com/rjqocampo/sign-up-form/issues) to see if someone else has already reported the same issue. If you find a similar report, you can add more information or subscribe to updates.
+2. **Create a New Issue:** If the issue hasn't been reported yet, go ahead and [create a new issue](https://github.com/rjqocampo/sign-up-form/issues/new). Try to provide the following information:
+   * A clear and descriptive title.
+   * Details about the bug or issue you encountered.
+   * Steps to reproduce the issue (if applicable).
+   * Expected behavior and actual behavior.
+   * Any relevant screenshots or error messages.
+3. **Labels and Tags:** Kindly use appropriate labels and tags to categorize the issue. This helps me prioritize and address it more efficiently.
 
 Thank you for your contributions and I appreciate all interests in making this project better for everyone. 
 
